@@ -6,8 +6,8 @@
 
 
 
-version 2.0是看完了三段视频后打的，包括用户认证和授权、注销及权限控制、记住我及首页定制。
+spring security completed是看完了三段视频后打的，包括用户认证和授权、注销及权限控制、记住我及首页定制。
 
 ## redis
 
-spring boot整合redis，目前这版是刚刚开始学。
+spring boot整合redis，目前这版(version 2.0)是刚刚开始学。
