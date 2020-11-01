@@ -10,4 +10,6 @@ spring security completed是看完了三段视频后打的，包括用户认证�
 
 ## redis
 
-spring boot整合redis，目前这版(version 2.1)是抄了部分自定义RedisTemplate的代码，太多了抄不过来，网上也没找到这么大段的代码，日后有用再抄。
+spring boot整合redis，version 2.1是抄了部分自定义RedisTemplate的代码，太多了抄不过来，网上也没找到这么大段的代码，日后有用再抄。
+
+目前这版(version 2.2)是从狂神的公众号拿了RedisUtil类的代码，开心

@@ -1,6 +1,7 @@
 package com.example.redis;
 
 import com.example.redis.pojo.User;
+import com.example.redis.utils.RedisUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
@@ -16,6 +17,9 @@ class RedisApplicationTests {
     @Autowired
     @Qualifier("redisTemplate")
     private RedisTemplate redisTemplate;
+
+    @Autowired
+    private RedisUtil redisUtil;
 
     @Test
     void contextLoads() {
@@ -41,6 +45,12 @@ class RedisApplicationTests {
 
         System.out.println(redisTemplate.opsForValue().get("user"));
 
+    }
+
+    @Test
+    public void test1(){
+        redisUtil.set("name", "this is name");
+        System.out.println(redisUtil.get("name"));
     }
 
 }
